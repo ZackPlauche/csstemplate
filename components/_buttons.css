@@ -1,0 +1,52 @@
+.btn {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-md {padding: 15px 30px}
+
+.btn-lg {
+  font-size: var(--h5);
+  padding: 20px 40x;
+}
+
+.btn-hero {
+  font-size: var(--h4);
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: var(--primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--primary-400);
+}
+
+.btn-secondary {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: var(--secondary-400);
+}
+
+.btn-danger {
+  color: white;
+  background-color: var(--danger);
+}
+
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: var(--danger-dark);
+}

@@ -1,0 +1,43 @@
+:root {
+  --primary: #21abde;
+  --primary-100: #f9fdff;
+  --primary-200: #00bbff;
+  --primary-300: var(--primary);
+  --primary-400: #197ca0;
+  --secondary: mediumseagreen;
+  --secondary-100: #eefff5;
+  --secondary-200: #49e790;
+  --secondary-300: var(--secondary);
+  --secondary-400: seagreen;
+  --secondary-light: ;
+  --danger: red;
+  --danger-dark: darkred;
+  --dark: #1b1b1b;
+
+  /* Fonts */
+  --base-font: Arial;
+  --display-font: var(--base-font);
+  --heading-font: var(--base-font);
+
+  /* Font Sizes */
+  --base-font-size: 16px;
+  --display: 60px;
+  --h1: 40px;
+  --h2: 36px;
+  --h3: 32px;
+  --h4: 28px;
+  --h5: 24px;
+  --h6: 22px;
+  --lead: 20px;
+  --small: 14px;
+  --mini: 12px;
+
+  /* Font Weights */
+  --thin: 100;
+  --light: 300;
+  --regular: 400;
+  --bold: 600;
+
+  /* Globals */
+  --navbar-height: 80px;
+}

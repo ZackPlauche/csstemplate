@@ -1,0 +1,19 @@
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 0px;
+}
+
+.message.error {
+  background-color: rgb(253, 226, 226);
+  color: red;
+  box-shadow: 0 0 1px red;
+}
+
+.message.success {
+  background-color: lightgreen;
+  color: green;
+  box-shadow: 0 0 1px green;
+}
