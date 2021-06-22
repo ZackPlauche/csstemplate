@@ -1,0 +1,17 @@
+
+.bg-cover {background-size: cover}
+.bg-center {background-position: center}
+.bg-fixed {background-attachment: fixed}
+
+/* Background colors */
+
+.bg-black {background-color: black}
+
+
+/* Borders */
+
+.rounded-xs {border-radius: 2.5px}
+.rounded-sm {border-radius: 5px}
+.rounded-md {border-radius: 10px}
+.rounded-lg {border-radius: 15px}
+.rounded-xl {border-radius: 20px}

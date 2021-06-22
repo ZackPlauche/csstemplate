@@ -3,6 +3,8 @@
 @import 'utilities/_text.css';
 @import 'utilities/_spacers.css';
 @import 'utilities/_layout.css';
+@import 'utilities/_backgrounds.css';
+@import 'utilities/_overlay.css';
 @import 'components/_buttons.css';
 @import 'components/_forms.css';
 @import 'components/_tables.css';

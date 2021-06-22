@@ -1,15 +1,16 @@
 :root {
+  /* Colors */
+  --zackhub: #21abde;
+  
+  /* Theme Colors */
   --primary: #21abde;
-  --primary-100: #f9fdff;
-  --primary-200: #00bbff;
-  --primary-300: var(--primary);
-  --primary-400: #197ca0;
+  --primary-superlight: #f9fdff;
+  --primary-light: #00bbff;
+  --primary-dark: #197ca0;
   --secondary: mediumseagreen;
-  --secondary-100: #eefff5;
-  --secondary-200: #49e790;
-  --secondary-300: var(--secondary);
-  --secondary-400: seagreen;
-  --secondary-light: ;
+  --secondary-superlight: #eefff5;
+  --secondary-light: #49e790;
+  --secondary-dark: seagreen;
   --danger: red;
   --danger-dark: darkred;
   --dark: #1b1b1b;
@@ -21,8 +22,8 @@
 
   /* Font Sizes */
   --base-font-size: 16px;
-  --display: 60px;
-  --h1: 40px;
+  --display: 80px;
+  --h1: 60px;
   --h2: 36px;
   --h3: 32px;
   --h4: 28px;

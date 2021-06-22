@@ -1,3 +1,9 @@
+.px-1 {padding: 0 10px}
+.px-2 {padding: 0 20px}
+.px-3 {padding: 0 30px}
+.px-4 {padding: 0 40px}
+.px-5 {padding: 0 50px}
+
 .py-1 {padding: 10px 0}
 .py-2 {padding: 20px 0}
 .py-3 {padding: 30px 0}
@@ -19,6 +25,12 @@
 .mx-auto {
   margin: 0 auto;
 }
+
+.mx-1 {margin: 0 10px}
+.mx-2 {margin: 0 20px}
+.mx-3 {margin: 0 30px}
+.mx-4 {margin: 0 40px}
+.mx-5 {margin: 0 50px}
 
 .my-1 {margin: 10px 0}
 .my-2 {margin: 20px 0}

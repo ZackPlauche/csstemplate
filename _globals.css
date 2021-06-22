@@ -14,17 +14,24 @@ body {
   font-weight: var(--regular);
 }
 
+::selection {
+  background-color: default;
+  color: default;
+}
+
 main {
   min-height: calc(100vh - var(--navbar-height));
 }
 
 
 .display {
+  font-family: var(--display-font);
   font-size: var(--display);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
+  font-weight: 400;
 }
 
 h1, .h1 {font-size: var(--h1);}
@@ -43,4 +50,8 @@ h6, .h6 {font-size: var(--h6);}
   color: grey;
   font-size: var(--small);
   font-weight: var(--regular);
+}
+
+p {
+  line-height: 200%;
 }

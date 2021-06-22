@@ -1,0 +1,27 @@
+.overlay {
+  position: relative;
+}
+
+.overlay > * {
+  position: relative;
+  z-index: 1;
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.overlay-dark::after {background-color: black}
+.overlay-light::after {background-color: white}
+
+.overlay-1::after {opacity: .1}
+.overlay-2::after {opacity: .2}
+.overlay-3::after {opacity: .3}
+.overlay-4::after {opacity: .4}
+.overlay-5::after {opacity: .5}
+.overlay-6::after {opacity: .6}
+.overlay-7::after {opacity: .7}
+.overlay-8::after {opacity: .8}
+.overlay-9::after {opacity: .9}

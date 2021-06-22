@@ -9,9 +9,70 @@
 .vh-100 {height: 100vh}
 .vh-fit {height: calc(100vh - var(--navbar-height))}
 
-.flex {display: flex}
-.flex-center {justify-content: center}
-.flex-column {flex-flow: column}
-.flex-middle {align-items: center}
+/* Positioning */
 
-/* Spacers */
+.relative {position: relative}
+.sticky {position: sticky}
+.absolute {position: absolute}
+.fixed {position: fixed}
+
+.top {top: 0}
+.top-1 {top: 10px}
+.top-2 {top: 20px}
+.top-3 {top: 30px}
+.top-4 {top: 40px}
+.top-5 {top: 50px}
+
+.right {right: 0}
+.right-1 {right: 10px}
+.right-2 {right: 20px}
+.right-3 {right: 30px}
+.right-4 {right: 40px}
+.right-5 {right: 50px}
+
+.bottom {bottom: 0}
+.bottom-1 {bottom: 10px}
+.bottom-2 {bottom: 20px}
+.bottom-3 {bottom: 30px}
+.bottom-4 {bottom: 40px}
+.bottom-5 {bottom: 50px}
+
+.left {left: 0}
+.left-1 {left: 10px}
+.left-2 {left: 20px}
+.left-3 {left: 30px}
+.left-4 {left: 40px}
+.left-5 {left: 50px}
+
+.center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Flex */
+
+.flex {display: flex}
+.flex-column {flex-direction: column}
+.flex-wrap {flex-wrap: wrap}
+
+.flex-left {justify-content: flex-start}
+.flex-center {justify-content: center}
+.flex-right {justify-content: flex-end}
+.flex-top {align-items: flex-start}
+.flex-middle {align-items: center}
+.flex-bottom {align-items: flex-end}
+.flex-between {justify-content: space-between}
+.flex-around {justify-content: space-around}
+
+/* Flex Column */
+.flex-column.flex-left {align-items: flex-start}
+.flex-column.flex-center {align-items: center}
+.flex-column.flex-right {align-items: flex-end}
+.flex-column.flex-top {justify-content: flex-start}
+.flex-column.flex-middle {justify-content: center}
+.flex-column.flex-bottom {justify-content: flex-end}

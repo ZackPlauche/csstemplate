@@ -13,7 +13,7 @@
 }
 
 .message.success {
-  background-color: lightgreen;
-  color: green;
-  box-shadow: 0 0 1px green;
+  background-color: var(--success-superlight);
+  color: var(--success);
+  box-shadow: 0 0 1px var(--success);
 }
