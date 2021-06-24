@@ -22,7 +22,6 @@ header {
   /* Mobile Menu Icon Color */
   --mobile-menu-icon-line-color: black;
   --mobile-menu-icon-line-color-hover: var(--mobile-menu-icon-line-color);
-  --mobile-menu-icon-line-color-active: var(--mobile-menu-icon-line-color);
   --mobile-menu-icon-line-color-checked: var(--mobile-menu-icon-line-color);
   --mobile-menu-icon-background-color: transparent;
   --mobile-menu-icon-background-color-hover: var(--mobile-menu-icon-background-color);
@@ -195,14 +194,6 @@ header {
   box-shadow: var(--mobile-menu-icon-box-shadow-active);
   transition: background-color 0s;
 }
-
-.mobile-menu-toggle:active  ~ .mobile-menu-icon .mobile-menu-icon-bar,
-.mobile-menu-toggle:active  ~ .mobile-menu-icon .mobile-menu-icon-bar:before,
-.mobile-menu-toggle:active  ~ .mobile-menu-icon .mobile-menu-icon-bar:after {
-  background-color: var(--mobile-menu-icon-line-color-active);
-  transition: background-color 0s;
-}
-
 
 /* Mobile Menu Icon Checked */
 
