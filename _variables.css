@@ -13,6 +13,10 @@
   --secondary-dark: seagreen;
   --danger: red;
   --danger-dark: darkred;
+  --success: mediumseagreen;
+  --success-light: #49e790;
+  --success-dark: seagreen;
+  --success-superlight: #eefff5;
   --dark: #1b1b1b;
 
   /* Fonts */

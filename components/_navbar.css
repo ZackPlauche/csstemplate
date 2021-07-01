@@ -3,13 +3,13 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1000;
 }
 
 .navbar {
   --navbar-color: white;
   background-color: var(--navbar-color);
   box-shadow: 0 0 5px var(--primary);
-  z-index: 1000;
 
   /* Mobile Menu Icon Shape & Size */
   --mobile-menu-icon-size: calc(var(--navbar-height) * .6);
