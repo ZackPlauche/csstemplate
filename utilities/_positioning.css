@@ -1,0 +1,42 @@
+.relative {position: relative}
+.sticky {position: sticky}
+.absolute {position: absolute}
+.fixed {position: fixed}
+
+.top {top: 0}
+.top-1 {top: 10px}
+.top-2 {top: 20px}
+.top-3 {top: 30px}
+.top-4 {top: 40px}
+.top-5 {top: 50px}
+
+.right {right: 0}
+.right-1 {right: 10px}
+.right-2 {right: 20px}
+.right-3 {right: 30px}
+.right-4 {right: 40px}
+.right-5 {right: 50px}
+
+.bottom {bottom: 0}
+.bottom-1 {bottom: 10px}
+.bottom-2 {bottom: 20px}
+.bottom-3 {bottom: 30px}
+.bottom-4 {bottom: 40px}
+.bottom-5 {bottom: 50px}
+
+.left {left: 0}
+.left-1 {left: 10px}
+.left-2 {left: 20px}
+.left-3 {left: 30px}
+.left-4 {left: 40px}
+.left-5 {left: 50px}
+
+.center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.middle {
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -6,6 +6,13 @@
   padding: 10px 0px;
 }
 
+.message-delete {
+  content: '&times;';
+  position: absolute;
+  right: 10px;
+  color: black;
+}
+
 .message.error {
   background-color: rgb(253, 226, 226);
   color: red;

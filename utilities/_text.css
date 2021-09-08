@@ -6,12 +6,9 @@
 .text-justify {text-align: justify}
 
 /* Text Color */
-.text-zackhub {color: var(--zackhub)}
 .text-white {color: white}
+.text-black {color: black}
 .text-primary {color: var(--primary)}
 .text-secondary {color: var(--secondary)}
-
-/* Text Style */
-.text-none {
-  text-decoration: none;
-}
+.text-success {color: var(--success)}
+.text-success {color: var(--danger)}
